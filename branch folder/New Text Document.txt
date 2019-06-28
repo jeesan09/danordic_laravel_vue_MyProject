@@ -1,7 +1,7 @@
 
-                                                                                                            LARAVEL TIPS
+                                          LARAVEL TIPS
 
-00-  MODELS NAME-----SHOULD BE IN SINGULAR FORM............AS (REVIEWS)............WRONG THIS SHOULD BE (REVIEW); 
+00-  MODELS NAME-----SHOULD BE IN SINGULAR FORM............AS (REVIEW)............WRONG THIS SHOULD BE (REVIEWS); 
 
 
 01-database seeder for each model
@@ -77,6 +77,10 @@ https://www.youtube.com/watch?v=ITtcPRyuJMg
                   -youtube  - https://www.youtube.com/watch?v=Fdh0lehd3xc&t=303s   
 
 19.- Mail 
+
+001- send mail to Real Mail Address
+https://www.smtp2go.com/
+002- smtp problem in server
 https://stackoverflow.com/questions/14176965/swift-transportexception-connection-could-not-be-established-with-host-smtp-gmai    
 
  'driver' => 'mail',
@@ -96,7 +100,16 @@ MAIL_HOST=mail.smtp2go.com
 MAIL_PORT=2525
 MAIL_USERNAME=unipay
 MAIL_PASSWORD=@@secret@@
-MAIL_ENCRYPTION=null                  
+MAIL_ENCRYPTION=null      
+
+never forget to cheak ur spam   
+
+
+20.- Roles and Permission 
+
+001- tutorial      https://www.youtube.com/watch?v=zIgYJlu03bI&list=PLe30vg_FG4OQKaLJodH9E8htPvfj7jamt
+002- documentaion  https://github.com/spatie/laravel-permission
+
 -------------------------------------------------------------------------------------------------------------------------SUBLINE--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 contol+p ----page scarch.
 control+f-----content scarch.
